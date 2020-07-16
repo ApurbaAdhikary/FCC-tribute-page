@@ -1,53 +1,58 @@
-body{
+body {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 1.5rem;
     line-height: 1.5;
     color: #050505;
+    margin: 0;
 }
+
 img {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5), 0px 6px 6px rgba(0, 0, 0, 0.5);
     display: block;
-    max-width: 100%;
+    max-width: 500px;
     height: auto;
     margin: 0 auto;
 }
+
 #img-caption {
-    font-size: 1.3rem;
+    font-size: 1rem;
     margin: 10px 0 5px 0;
 }
+
 #main {
     margin: 0;
     padding: 10px;
     border-radius: 10px;
-    background: #dfdfdf;
+    background: linear-gradient(135deg, #fab6d3 0%, #fcc89b 17%, #fbfcae 33%, #b4f7af 50%, #acb2f6 67%, #f0acf6 83%, #fab6d3 100%);
 }
+
 h1 {
     font-size: 2.5rem;
     line-height: 1.5;
 }
-#img-div{
-    background: #fff;
-    padding: 10px;
-    margin: 0;
-}
+
+
 ul {
     text-align: left;
     line-height: 1.5;
     max-width: 700px;
     margin: auto;
 }
+
 li {
     margin: 15px auto;
     font-size: 1.4rem;
 }
+
 blockquote {
     font-style: italic;
     max-width: 500px;
     font-size: 1.2rem;
-    background-color: #c3c3c3;
     padding: 5px 20px;
     border-radius: 10px;
 }
-cite::before{
+
+cite::before {
     content: "~~ ";
 }
